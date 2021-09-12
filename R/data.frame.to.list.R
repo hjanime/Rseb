@@ -15,7 +15,7 @@
 data.frame.to.list = function(x) {
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   if (class(x) != "data.frame") {
