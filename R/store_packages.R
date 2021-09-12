@@ -11,7 +11,7 @@
 store_packages = function(output_directory = getwd()) {
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   # stores a list of your currently installed packages
