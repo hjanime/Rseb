@@ -24,7 +24,7 @@ read.computeMatrix.file = function(matrix.file) {
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   # Matrix file check
