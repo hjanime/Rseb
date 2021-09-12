@@ -16,8 +16,8 @@ pkg.version = function(return.session = F,
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F,   #
-                  verbose = F)  #
+  #Rseb::actualize(update = F,   #
+  #                verbose = F)  #
   #-----------------------------#
 
   # Check if Rseb is attached, if not, attach it. then it will be eventually removed again
