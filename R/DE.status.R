@@ -29,10 +29,6 @@ DE.status = function(log2FC, # log2(FC)
                      unresponsive.label = "NoResp",
                      null.label = "NULL") {
 
-  #-----------------------------#
-  # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
-  #-----------------------------#
 
   # Check the unresponsive thresholds
   if (is.null(FC_NoResp_left) & is.null(FC_NoResp_rigth)) {
