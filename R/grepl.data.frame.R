@@ -27,7 +27,7 @@ grepl.data.frame =
 
     #-----------------------------#
     # Check if Rseb is up-to-date #
-    Rseb::actualize(update = F, verbose = F)   #
+    #Rseb::actualize(update = F, verbose = F)   #
     #-----------------------------#
 
   df = data.frame(data.frame, stringsAsFactors = F)
