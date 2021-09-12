@@ -23,7 +23,7 @@ mass.to.volume = function(final_concentration,
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   # convertion final concentration to molar
