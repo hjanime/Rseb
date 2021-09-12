@@ -24,10 +24,7 @@ GSEA.to.GOnumber = function(input_terms,
                             export_table = F,
                             output_file_name = paste(getwd(), "GO_numbers_table.tsv", sep ="/")) {
 
-  #-----------------------------#
-  # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
-  #-----------------------------#
+
 
   # Let's check if you have the required libraries
   if (!requireNamespace("BiocManager", quietly = TRUE))
