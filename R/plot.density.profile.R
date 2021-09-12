@@ -120,7 +120,6 @@ plot.density.profile = function(
   # require(labeling)
 
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)
 
   ##############################################################################
   ## Convert and check x.lim and y.lim and title
