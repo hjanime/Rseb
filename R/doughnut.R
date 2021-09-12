@@ -44,7 +44,7 @@ doughnut =
 
     #-----------------------------#
     # Check if Rseb is up-to-date #
-    Rseb::actualize(update = F, verbose = F)   #
+    #Rseb::actualize(update = F, verbose = F)   #
     #-----------------------------#
 
     ### Open a null PDF to record the file
