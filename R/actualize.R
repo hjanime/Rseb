@@ -23,7 +23,7 @@ actualize = function(update = TRUE,
 
 
   # Check if Rseb is up-to-date and print a message if not up-to-date
-  if (check$up_to_date == F & update == F) {
+  if (verbose == F & update == F) {
     message = paste("| The 'Rseb' package is not up-to-date. Installed version v",
                     check$installed_version, " --> v", check$latest_version,
                     " available. |", sep="")
