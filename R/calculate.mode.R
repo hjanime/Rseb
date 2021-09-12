@@ -15,7 +15,7 @@ calculate.mode = function(v) {
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   uniq.v = unique(v)
