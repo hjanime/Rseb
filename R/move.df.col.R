@@ -23,7 +23,7 @@ move.df.col = function (data.frame,
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   move.command = lapply(strsplit(strsplit(move.command, ";")[[1]],
