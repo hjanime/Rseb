@@ -47,8 +47,7 @@ density.matrix = function(mode,
                           binning.operation = "mean") { # BEGIN FUNCTION
 
   ##########################################################################################
-  # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)
+
 
   ##########################################################################################
   # CHECK PARAMETERS
