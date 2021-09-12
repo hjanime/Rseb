@@ -23,7 +23,7 @@ convert_sequence = function(sequence = NULL,
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   ###### Install required packages  ######
