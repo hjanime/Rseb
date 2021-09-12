@@ -141,8 +141,7 @@ plot.density.summary = function(
   # require(cowplot)
   # require(tools)
 
-  # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)
+
 
   ##############################################################################
   ## Convert and check y.lim and title
