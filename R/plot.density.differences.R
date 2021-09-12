@@ -158,8 +158,6 @@ plot.density.differences = function(
   # require(cowplot)
   # require(tools)
 
-  # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)
 
   ##############################################################################
   ### Check that the signal method is allowed
