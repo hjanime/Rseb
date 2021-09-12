@@ -23,7 +23,7 @@ get.gene.name = function(ensembl.id,
 
   #-----------------------------#
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)   #
+  #Rseb::actualize(update = F, verbose = F)   #
   #-----------------------------#
 
   require(biomaRt)
