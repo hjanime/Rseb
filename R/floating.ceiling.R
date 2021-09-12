@@ -13,7 +13,7 @@ floating.ceiling = function(num,
                             digits = 1) {
 
   # Check if Rseb is up-to-date #
-  Rseb::actualize(update = F, verbose = F)
+  #Rseb::actualize(update = F, verbose = F)
 
   # Check that digits is an integer
   if (digits != round(digits)) {return(warning("The 'digits' parameter must be an integer."))}
